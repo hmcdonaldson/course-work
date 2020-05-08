@@ -1,0 +1,71 @@
+public class Driver {
+
+	public static void main(String[] args) {
+		//Driver
+		System.out.println("Hello World!");
+	
+		//If-else Block
+		int input1 = Interger.parseInt(args[0]);
+		if(input1 % 2 != 0)
+		{
+			System.out.println("odd");
+		}
+		if(input1 % 2 == 0)
+		{
+			System.out.println("even');
+		}
+
+		//Switch Statement
+		int input2 = Integer.parseInt(args[1]);
+		String oddOrEven = " ";
+		switch(input2 % 2 + 1)
+			{
+			case 1: oddOrEven = "even";
+				break;
+			case 2: oddOrEven = "odd";
+				break;
+			}
+			System.out.println(oddOrEven);
+
+		//While-loop
+		int i = 1;
+		while(i <= 10)
+		{
+		System.out.println(i);
+		i++;
+		}
+
+		//For-loop
+		for(int j = 1; j <= 10; j++)
+		{
+		System.out.println(j);
+		}
+
+		//Array Declaration
+		int[] array1 = {1, 2, 3, 4, 5,};
+
+		//Array Element Retrieval
+		for(int j = 0; j < array1.length; j++)
+		{
+			System.out.println(array1[j]);
+		}
+		
+		//Array Element Modification
+		for(int j = 0; j < array1.length; j++)
+		{
+			array1[j] = array1[j] * 2;
+		}
+		
+		//Function Definition with Primitive Parameters
+		public static int sum(int num1, int num2){
+			int sum = num1 + num2;
+			return sum;
+		}
+
+		//Function Calls
+		int input3 = Integer.parseInt(args[2]);
+		int input4 = Integer.parseInt(args[3]);
+		System.out.println(sum(input3, input4));	
+	}
+}
+

@@ -1,0 +1,3 @@
+Squirtle:Brave:Bold:99
+Charizard:Adamant:Relaxed:200
+Bulbasaur:Lonely:Impish:85
